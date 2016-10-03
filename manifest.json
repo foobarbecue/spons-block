@@ -1,0 +1,10 @@
+{
+  "manifest_version":2,
+  "name" : "sponsblock",
+  "description" : "Hide 'suggested posts' and 'sponsored content' when viewing Facebook timeline",
+  "version" : "1.0",
+  "content_scripts" : [{
+    "js" : ["rmspons.js"],
+    "matches" : ["https://www.facebook.com/*"]
+  }]
+}
